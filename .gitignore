@@ -1,0 +1,53 @@
+# ================================
+# Terraform
+# ================================
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+crash.*.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# ================================
+# OS / Editor
+# ================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# Credentials (just in case)
+# ================================
+*.pem
+*.key
+*.crt
+*.json
+
+# ================================
+# Python / Conda (local only)
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+conda/
